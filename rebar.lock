@@ -1,0 +1,32 @@
+{"1.2.0",
+[{<<"cowboy">>,
+  {git,"https://github.com/ninenines/cowboy.git",
+       {ref,"70d393caad3997068f0e14906d9c1bd49258d7fb"}},
+  0},
+ {<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"1b5539a1da1d39b110d81b118000f00bbedaf4b4"}},
+  1},
+ {<<"ecpool">>,
+  {git,"https://github.com/emqx/ecpool.git",
+       {ref,"4cb6c319185e09725203c6a12a78047742cbe4c6"}},
+  0},
+ {<<"gproc">>,{pkg,<<"gproc">>,<<"0.8.0">>},1},
+ {<<"jiffy">>,
+  {git,"https://github.com/davisp/jiffy.git",
+       {ref,"6dadc0cd22b06e2b1972ee8aba5708c478418926"}},
+  0},
+ {<<"mysql">>,
+  {git,"https://github.com/mysql-otp/mysql-otp",
+       {ref,"6840af959ecba1cfc9fbc098c4fa4fc8babc8018"}},
+  0},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch",
+       {ref,"3190aef88aea04d6dce8545fe9b4574288903f44"}},
+  1}]}.
+[
+{pkg_hash,[
+ {<<"gproc">>, <<"CEA02C578589C61E5341FCE149EA36CCEF236CC2ECAC8691FBA408E7EA77EC2F">>}]},
+{pkg_hash_ext,[
+ {<<"gproc">>, <<"580ADAFA56463B75263EF5A5DF4C86AF321F68694E7786CB057FD805D1E2A7DE">>}]}
+].
